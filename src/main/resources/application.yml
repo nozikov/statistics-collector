@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: spring_data
+      host: ${ECS_MONGO_HOST:localhost}
+      port: ${ECS_MONGO_PORT:27017}
+      username: ${ECS_MONGO_USERNAME}
+      password: ${ECS_MONGO_PASSWORD}
+      authentication-database: admin
